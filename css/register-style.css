@@ -1,0 +1,137 @@
+.header {
+    padding: 15px 0;
+    border-bottom: 2px solid #B1191A;
+}
+.body {
+    margin-top: 13px;
+    border: 1px solid #CCCCCC;
+}
+.body .top{
+    border-bottom: 1px solid #ccc;
+    padding: 12px 10px;
+    height: 18px;
+    background-color: #ECECEC;
+}
+.body .top p{
+    float: left;
+    font-size: 18px;
+    color: #666666;
+}
+.body .top span{
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+.body .top span a{
+    color: #C81623;
+    font-size: 14px;
+}
+.body .bottom {
+    position: relative;
+    width: 1200px;
+    height: 480px;
+    background-color: #fff;
+    
+}
+.body .bottom ul {
+    width: 620px;
+    margin: auto;
+    margin-top: 40px;
+}
+.body .bottom ul li {
+    height: 34px;
+    margin-bottom: 15px;
+}
+.body .bottom ul li span {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    margin-right: 15px;
+}
+.body .bottom ul li input {
+    width: 240px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+.body .bottom li:nth-of-type(4){
+    width: 327px;
+    text-align: right;
+}
+.body .bottom li em {
+    font-style: normal;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.body .bottom li .box {
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 35px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+}
+.body .bottom li .g{
+    background-color: green;
+}
+.body .bottom li .y{
+    background-color: #F79100;
+}
+.body .bottom li:nth-of-type(6){
+    width: 355px;
+    text-align: center;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.body .bottom li:nth-of-type(6) input{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.body .bottom li:nth-of-type(6) i {
+    color: #1BA1EA;
+    font-style: normal;
+}
+.body .bottom button{
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    margin-left: -200px;
+    width: 190px;
+    height: 35px;
+    background-color: #C81623;
+    border: none;
+}
+.body .bottom button a {
+    color: white;
+}
+.body .bottom li strong{
+    margin-left: 8px;
+    font-family: 'icomoon';
+    color: green;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.body .bottom li b{
+    margin-left: 8px;
+    color: seagreen;
+    font-size: 12px;
+    font-weight: 400;
+}
+.body .bottom li:nth-of-type(1) strong {
+    color: red;
+}
+.body .bottom li:nth-of-type(1) b {
+    color: red;
+}
+.foot {
+    background-color: #fff;
+}
+

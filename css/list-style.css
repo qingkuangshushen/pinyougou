@@ -1,0 +1,182 @@
+.nav .w .left .dd {
+    display: none;
+}
+.header .ms {
+    float: left;
+    background: url(../image/sk.png) no-repeat right;
+    width: 55px;
+    height: 35px;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: 15px;
+    border-left: 1px solid #AF1918;
+}
+.header .search {
+    float: left;
+    margin-left: 75px;
+}
+.nav .w .left {
+    float: left;
+    margin-top: 2px;
+    margin-left: 30px;
+    height: 20px;
+}
+.nav .w .left li {
+    /* float: left; */
+    height: 20px;
+    margin-right: 60px;
+}
+.nav .w .left li a {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    font-family: 'icomoon';
+}
+.nav .w .left li a:hover {
+    color: #E60012;
+}
+.nav .w .right {
+    float: left;
+    margin-top: 38px;
+    height: 20px;
+    margin-left: 50px;
+}
+.nav .w .right li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 29px;
+}
+.nav .w .right li a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+.nav .w .right ul li span {
+    font-family: "icomoon";
+}
+.header .hotwords .gaogenxie a,
+.nav .right .gaogenxie a{
+    color: #C81623;
+}
+/* 设计主题页面 */
+.zhuti .duzi1 {
+    width: 1200px;
+    height: 120px;
+    background-image: url(../image/bg_03.png);
+}
+.zhuti .duzi2 li {
+    float: left;
+    width: 288px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+} 
+.zhuti .duzi2 li .duzi2-top {
+    width: 288px;
+    height: 289px;
+   
+    background-image: url(../image/mobile.jpg);
+}
+.zhuti .duzi2 li p {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+.zhuti .duzi2 li h4 {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 20px;
+    font-size: 18px;
+    font-size: 18px;
+    color: #E60012;
+    font-weight: 700;
+}
+.zhuti .duzi2 li del {
+    display: inline-block;
+    height: 20px;
+    font-size: 14px;
+    color: #A4A4A4;
+    font-weight: 700;
+}
+.zhuti .duzi2 li .tit {
+    height: 12px;
+    margin-top: 1px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+}
+.zhuti .duzi2 li .tit h6,
+.zhuti .duzi2 li .duzi2-tiao{
+    display: inline-block;
+}
+.zhuti .duzi2 li .tit h6 {
+    margin-right: 7px;
+font-size: 12px;
+font-weight: 400;
+color: #666;
+}
+.zhuti .duzi2 li .tit h6 span {
+    color: #E60012;
+}
+.zhuti .duzi2 li .duzi2-tiao{
+    margin-right: 10px;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #E60012;
+    border-radius: 5px;
+}
+.zhuti .duzi2 li .duzi2-tiao .jindutiao {
+    height: 10px;
+    width: 87%;
+    background-color: #E60012;
+}
+.zhuti .duzi2 button {
+    width: 288px;
+    height: 50px;
+    background-color: #B1191A;
+    line-height: 50px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.zhuti .duzi2 li:hover {
+    border: 1px solid #C81623;
+}
+.yema {
+    height: 135px;
+    width: 100%;
+    line-height: 135px;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+.yema button {
+    font-family: 'icomoon';
+    font-size: 12px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #CCCCCC;
+}
+.yema .qub {
+    border: none;
+    background-color: #fff;
+}
+.yema button:hover {
+    color: #E60012;
+}
+.yema input {
+    width: 48px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+input:focus{
+    width: 88px;
+    border: 1px solid skyblue;
+}

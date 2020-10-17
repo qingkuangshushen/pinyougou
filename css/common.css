@@ -1,0 +1,302 @@
+/* 导航栏开始  */
+.shorcut {
+    width: 100%;
+    height: 30px;
+    background-color: #F1F1F1;
+}
+.shorcut .left {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+}
+.shorcut .left span a{
+    color: #666666;
+} 
+.shorcut .left em a{
+    color: #C81623;
+}
+.shorcut .left a:hover {
+    color: #e33333;
+}
+.shorcut .right span{
+    font-family: "icomoon";
+}
+.shorcut .right {
+    float: right;
+    height: 30px;
+}
+.shorcut .right li {
+    float: left;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    height: 12px;
+    line-height: 10px;
+    border-right: 1px solid #666666;
+}
+.shorcut .right .shorcutt {
+    border-right: none;
+}
+.shorcut .right li a {
+    color: #666666;
+    font-size: 12px;
+}
+.shorcut .right a:hover {
+    color: #e33333;
+}
+/* 导航栏结束 */
+
+
+
+/* 头部开始 */
+.header {
+    overflow: hidden;
+    padding-top: 27px;
+}
+.header .logo{
+    float: left;
+    width: 175px;
+    height: 56px;
+    background-image: url(../image/logo.png);
+}
+.header .search{
+    float: left;
+    margin-left: 173px;
+}
+.header .search input {
+    width: 457px;
+    height: 31px;
+    border: 2px solid #AF1918;
+    padding-left: 10px;
+    color: #CCCCCC;
+}
+.header .search button {
+    margin-left: -5px;
+    width: 82px;
+    height: 35px;
+    background-color: #B2191B;
+    border: none;
+}
+.header .search button a{
+    font-size: 14px;
+    color: #FFF9FF;
+}
+.header .hotwords li{
+    float: left;
+    padding-top: 5px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+.header .hotwords li a {
+    color: #666666;
+    font-size: 12px;
+}
+.header .hotwords li a:hover {
+    color: #e33333;
+}
+.header .w .shopcar {
+    position: relative;
+    float: right;
+    margin-right: 63px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #F7F7F7;
+     border: 2px solid #DFDFDF;
+     font-size: 12px;
+     color: #686868;
+}
+.header .shopcar i{
+    font-family: "icomoon";
+    color: #e33333;
+}
+.header .shopcar .green {
+    color: gray;
+}
+.header .shopcar .ding {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 10px; 
+    height: 14px; 
+    line-height: 14px;
+    background-color: #E60012;
+    color: #fff;
+    /* 小圆角radius设置为高度的一半 */
+    border-radius: 9px 9px 9px 0;
+}
+/* 头部结束 */
+
+
+
+/* 商品介绍 */
+.nav {
+    width: 100%;
+    height: 71px;
+    border-bottom: 2px solid #B2191B;
+}
+.nav .w .left {
+    float: left;
+    margin-top: 30px;
+    width: 209px;
+}
+.nav .w .left .dt{
+    width: 209px;
+    height: 43px;
+    background-color: #B2191B;
+    line-height: 43px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.nav .w .left .dd {
+    display:none;
+    height: 465px;
+    width: 208px;
+    background-color: #C81623;
+    padding-left: 1px;
+}
+.nav .w .left .dd li{
+    height: 31px;
+    line-height: 31px;
+    padding-left: 9px;
+    transition: all .5s;
+}
+.nav .w .left .dd li:hover {
+    padding-left: 19px;
+}
+.nav .w .left .dd li a {
+    color: #fff;
+    font-size: 12px;
+}
+.nav .w .left .dd li span {
+    float: right;
+    margin-right: 10px;
+}
+.nav .w .left .dd li:hover{
+    background-color: #fff;
+}
+.nav .w .left .dd li:hover a {
+    color: #E60012;
+}
+.nav .w .left .dd li:hover span{
+    color: #fff;
+}
+.nav .w .left .dd li span{
+    font-family: "icomoon";
+}
+.nav .right li a {
+    font-size: 16px;
+    color: #666666;
+}
+.nav .right li a:hover {
+    color: #e33333;
+}
+
+/* 尾部开始 */
+.foot {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.foot .one {
+    height: 110px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.foot .one li {
+    float: left;
+    margin: 35px 35px 25px 34px;
+    padding-left: 1px;
+}
+.foot .one .left {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    background: url(../image/icons.png) no-repeat -253px -2px;
+}
+.foot .one .right {
+    float: left;
+}
+.foot .one li .right h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #666;
+}
+.foot .one li .right h6 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+}
+.foot .one .nn {
+    background: url(../image/icons.png) no-repeat -256px -54px;
+}
+.foot .one .nm {
+    background: url(../image/icons.png) no-repeat -256px -106px;
+}
+.foot .two {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+.foot .two dl {
+    float: left;
+    margin: 15px 90px 5px 50px;
+}
+.foot .two dl dt {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.foot .two dl a dd {
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: #666666;
+    }
+.foot .two dl a:hover dd{
+    color: #e33333;
+}
+.foot .two .righh {
+    float: left;
+    margin-left: 50px;
+    width: 90px;
+   margin-top: 18px;
+}
+.foot .two .righh h4 {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.foot .two .righh .erweima {
+    width: 90px;
+    height: 90px;
+    margin: 3px 0 8px 0px;
+}
+.foot .two .righh h5{
+    font-size: 12px;
+    color: #666;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+.foot .three p{
+    font-size: 12px;
+    color: #666;
+    margin-left: 223px;
+    margin-top: 23px;
+}
+.foot .three .dizhi {
+    margin-left: 237px;
+    margin-top: 10px;
+}
+.foot .three .mmm{
+    margin-top: 5px;
+    margin-left: 470px;
+}
